@@ -15,4 +15,4 @@ map.sort(function(a, b){
     if(a.k.toLowerCase() > b.k.toLowerCase()) return 1;
     return 0;
 });
-map.join();
+map.join();//TODO: over write 'join' method which return sorted properties string
